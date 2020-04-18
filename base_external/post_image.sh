@@ -52,6 +52,7 @@ __EOF__
 	esac
 
 done
+echo "dtoverlay=spiOverlay" >> "${BINARIES_DIR}/rpi-firmware/config.txt"
 # Pass an empty rootpath. genimage makes a full copy of the given rootpath to
 # ${GENIMAGE_TMP}/root so passing TARGET_DIR would be a waste of time and disk
 # space. We don't rely on genimage to build the rootfs image, just to insert a

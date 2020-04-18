@@ -11,6 +11,4 @@ tty1::respawn:/sbin/getty -L  tty1 0 vt100 # HDMI console' ${TARGET_DIR}/etc/ini
 fi
 cp ../base_external/interfaces ${TARGET_DIR}/etc/network/interfaces
 cp ../base_external/wpa_supplicant.conf ${TARGET_DIR}/etc/wpa_supplicant.conf
-
-
-
+cp ../base_external/spiOverlay.dtbo ${TARGET_DIR}/../images/rpi-firmware/overlays/spiOverlay.dtbo
