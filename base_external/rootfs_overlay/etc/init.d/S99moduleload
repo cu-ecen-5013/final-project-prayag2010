@@ -6,7 +6,7 @@ echo "Loading I2C,SPI and Wifi modules"
 modprobe i2c-bcm2835
 modprobe i2c-dev
 modprobe spi-bcm2835
-modprobe brcmfcmac
+modprobe brcmfmac
 ;;
 stop)
 echo "Removing Loaded modules"
