@@ -6,7 +6,7 @@ iface eth0 inet dhcp
     wait-delay 15
 auto wlan0
 iface wlan0 inet dhcp
-    pre-up wpa_supplicant -B -Dnl80211 -iwlan0 -c/etc/wpa_supplicant.conf
+    pre-up wpa_supplicant -B -Dwext -iwlan0 -c /etc/wpa_supplicant.conf
     post-down killall -q wpa_supplicant
     wait-delay 15
 iface default inet dhcp

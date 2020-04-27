@@ -4,8 +4,8 @@
 #
 ##############################################################
 
-EPAPER_MODULE_VERSION = '056b31123688fb7b2fdd1793e6a142736bc41260'
-EPAPER_MODULE_SITE = 'git@github.com:prayag2010/ECEN5013-LCD-Communication.git'
+EPAPER_MODULE_VERSION = 2f9c5eb7573560949fae39fe075ac1304a45e8d7
+EPAPER_MODULE_SITE = git@github.com:cu-ecen-5013/final-project-rahulramaprasad7.git
 EPAPER_MODULE_SITE_METHOD = git
 
 EPAPER_MODULE_MODULE_SUBDIRS = module/

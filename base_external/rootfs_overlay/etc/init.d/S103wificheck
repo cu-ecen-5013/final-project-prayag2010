@@ -1,0 +1,13 @@
+#!/bin/sh
+ping -c 1 1.1.1.1
+ping_status=$?
+
+if [ $ping_status -eq 0 ]
+then
+	echo 'Network found'	
+	exit 0
+else
+	echo 'Network not found rebooting'
+	wpa_passphrase "AESD" "password123" > /etc/wpa_supplicant.conf
+	
+fi
