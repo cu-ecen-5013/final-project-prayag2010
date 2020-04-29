@@ -9,5 +9,5 @@ then
 else
 	echo 'Network not found rebooting'
 	wpa_passphrase "AESD" "password123" > /etc/wpa_supplicant.conf
-	
+#       reboot
 fi
