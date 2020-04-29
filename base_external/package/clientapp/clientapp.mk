@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-CLIENTAPP_VERSION =  5f55fe41dcb10b534262fba2699f0e5125d31f20
+CLIENTAPP_VERSION =  6534e2b4007ab724a1f9603ad74e91faa0aa3135
 CLIENTAPP_SITE = git@github.com:cu-ecen-5013/final-project-rahulramaprasad7.git
 CLIENTAPP_SITE_METHOD = git
 
